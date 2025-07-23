@@ -833,10 +833,10 @@ The following sets of tools are available (all are on by default):
   - `repo`: Repository name (string, required)
 
 - **search_code** - Search code
-  - `order`: Sort order (string, optional)
+  - `order`: Sort order for results (string, optional)
   - `page`: Page number for pagination (min 1) (number, optional)
   - `perPage`: Results per page for pagination (min 1, max 100) (number, optional)
-  - `q`: Search query using GitHub code search syntax (string, required)
+  - `q`: Search query using GitHub's powerful code search syntax. Examples: 'content:Skill language:Java org:github', 'NOT is:archived language:Python OR language:go'. Supports exact matching, language filters, path filters, and more. (string, required)
   - `sort`: Sort field ('indexed' only) (string, optional)
 
 - **search_repositories** - Search repositories
